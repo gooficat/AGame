@@ -64,7 +64,7 @@ AS       := C:/msys64/ucrt64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Users\Public\CodeLite
-Objects0=$(IntermediateDirectory)/src_main.cpp$(ObjectSuffix) $(IntermediateDirectory)/src_glad.c$(ObjectSuffix) $(IntermediateDirectory)/src_texture.cpp$(ObjectSuffix) $(IntermediateDirectory)/src_shader.cpp$(ObjectSuffix) $(IntermediateDirectory)/src_mesh.cpp$(ObjectSuffix) $(IntermediateDirectory)/src_camera.cpp$(ObjectSuffix) $(IntermediateDirectory)/src_stb_image.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/src_texture.cpp$(ObjectSuffix) $(IntermediateDirectory)/src_mesh.cpp$(ObjectSuffix) $(IntermediateDirectory)/src_camera.cpp$(ObjectSuffix) $(IntermediateDirectory)/src_glad.c$(ObjectSuffix) $(IntermediateDirectory)/src_main.cpp$(ObjectSuffix) $(IntermediateDirectory)/src_shader.cpp$(ObjectSuffix) $(IntermediateDirectory)/src_stb_image.c$(ObjectSuffix) 
 
 
 
@@ -95,25 +95,10 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/src_main.cpp$(ObjectSuffix): src/main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Free time/AGame/src/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/src_main.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/src_main.cpp$(PreprocessSuffix): src/main.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/src_main.cpp$(PreprocessSuffix) src/main.cpp
-
-$(IntermediateDirectory)/src_glad.c$(ObjectSuffix): src/glad.c 
-	$(CC) $(SourceSwitch) "C:/Users/Free time/AGame/src/glad.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/src_glad.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/src_glad.c$(PreprocessSuffix): src/glad.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/src_glad.c$(PreprocessSuffix) src/glad.c
-
 $(IntermediateDirectory)/src_texture.cpp$(ObjectSuffix): src/texture.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Free time/AGame/src/texture.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/src_texture.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/src_texture.cpp$(PreprocessSuffix): src/texture.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/src_texture.cpp$(PreprocessSuffix) src/texture.cpp
-
-$(IntermediateDirectory)/src_shader.cpp$(ObjectSuffix): src/shader.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Free time/AGame/src/shader.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/src_shader.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/src_shader.cpp$(PreprocessSuffix): src/shader.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/src_shader.cpp$(PreprocessSuffix) src/shader.cpp
 
 $(IntermediateDirectory)/src_mesh.cpp$(ObjectSuffix): src/mesh.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Free time/AGame/src/mesh.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/src_mesh.cpp$(ObjectSuffix) $(IncludePath)
@@ -124,6 +109,21 @@ $(IntermediateDirectory)/src_camera.cpp$(ObjectSuffix): src/camera.cpp
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Free time/AGame/src/camera.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/src_camera.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/src_camera.cpp$(PreprocessSuffix): src/camera.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/src_camera.cpp$(PreprocessSuffix) src/camera.cpp
+
+$(IntermediateDirectory)/src_glad.c$(ObjectSuffix): src/glad.c 
+	$(CC) $(SourceSwitch) "C:/Users/Free time/AGame/src/glad.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/src_glad.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/src_glad.c$(PreprocessSuffix): src/glad.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/src_glad.c$(PreprocessSuffix) src/glad.c
+
+$(IntermediateDirectory)/src_main.cpp$(ObjectSuffix): src/main.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Free time/AGame/src/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/src_main.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/src_main.cpp$(PreprocessSuffix): src/main.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/src_main.cpp$(PreprocessSuffix) src/main.cpp
+
+$(IntermediateDirectory)/src_shader.cpp$(ObjectSuffix): src/shader.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Free time/AGame/src/shader.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/src_shader.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/src_shader.cpp$(PreprocessSuffix): src/shader.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/src_shader.cpp$(PreprocessSuffix) src/shader.cpp
 
 $(IntermediateDirectory)/src_stb_image.c$(ObjectSuffix): src/stb_image.c 
 	$(CC) $(SourceSwitch) "C:/Users/Free time/AGame/src/stb_image.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/src_stb_image.c$(ObjectSuffix) $(IncludePath)
