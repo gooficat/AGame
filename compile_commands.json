@@ -1,0 +1,57 @@
+[{
+  "file": "C:\\Users\\Free time\\AGame\\include\\KHR\\khrplatform.h",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -c \"C:\\Users\\Free time\\AGame\\include\\KHR\\khrplatform.h\" -o \"C:\\Users\\Free time\\AGame\\include\\KHR\\khrplatform.h\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include  -g -Wall"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\include\\shader.hpp",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -c \"C:\\Users\\Free time\\AGame\\include\\shader.hpp\" -o \"C:\\Users\\Free time\\AGame\\include\\shader.hpp\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include  -g -Wall"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\src\\texture.cpp",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -c \"C:\\Users\\Free time\\AGame\\src\\texture.cpp\" -o \"C:\\Users\\Free time\\AGame\\src\\texture.cpp\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include  -g -Wall"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\include\\texture.hpp",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -c \"C:\\Users\\Free time\\AGame\\include\\texture.hpp\" -o \"C:\\Users\\Free time\\AGame\\include\\texture.hpp\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include  -g -Wall"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\include\\mesh.hpp",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -c \"C:\\Users\\Free time\\AGame\\include\\mesh.hpp\" -o \"C:\\Users\\Free time\\AGame\\include\\mesh.hpp\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include  -g -Wall"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\include\\camera.hpp",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -c \"C:\\Users\\Free time\\AGame\\include\\camera.hpp\" -o \"C:\\Users\\Free time\\AGame\\include\\camera.hpp\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include  -g -Wall"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\src\\mesh.cpp",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -c \"C:\\Users\\Free time\\AGame\\src\\mesh.cpp\" -o \"C:\\Users\\Free time\\AGame\\src\\mesh.cpp\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include  -g -Wall"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\src\\camera.cpp",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -c \"C:\\Users\\Free time\\AGame\\src\\camera.cpp\" -o \"C:\\Users\\Free time\\AGame\\src\\camera.cpp\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include  -g -Wall"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\src\\glad.c",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/gcc.exe -c \"C:\\Users\\Free time\\AGame\\src\\glad.c\" -o \"C:\\Users\\Free time\\AGame\\src\\glad.c\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\src\\main.cpp",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -c \"C:\\Users\\Free time\\AGame\\src\\main.cpp\" -o \"C:\\Users\\Free time\\AGame\\src\\main.cpp\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include  -g -Wall"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\src\\shader.cpp",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -c \"C:\\Users\\Free time\\AGame\\src\\shader.cpp\" -o \"C:\\Users\\Free time\\AGame\\src\\shader.cpp\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include  -g -Wall"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\include\\stb_image.h",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -c \"C:\\Users\\Free time\\AGame\\include\\stb_image.h\" -o \"C:\\Users\\Free time\\AGame\\include\\stb_image.h\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include  -g -Wall"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\include\\glad\\glad.h",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/g++.exe -c \"C:\\Users\\Free time\\AGame\\include\\glad\\glad.h\" -o \"C:\\Users\\Free time\\AGame\\include\\glad\\glad.h\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include  -g -Wall"
+ }, {
+  "file": "C:\\Users\\Free time\\AGame\\src\\stb_image.c",
+  "directory": "C:\\Users\\Free time\\AGame",
+  "command": "C:/msys64/ucrt64/bin/gcc.exe -c \"C:\\Users\\Free time\\AGame\\src\\stb_image.c\" -o \"C:\\Users\\Free time\\AGame\\src\\stb_image.c\".o -target x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -IC:\\msys64\\ucrt64\\include\\c++\\12.2.0\\backward -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -IC:\\msys64\\ucrt64\\include -IC:\\msys64\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -I. -I. -I./include"
+ }]

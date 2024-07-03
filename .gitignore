@@ -1,0 +1,7 @@
+build-Debug/
+AGame.mk
+AGame.project
+AGame.workspace
+compile_commands.json
+.codelite/
+.ctagsd/
