@@ -1,1 +1,0 @@
-build-Debug/src_main.cpp.o build-Debug/src_glad.c.o build-Debug/src_texture.cpp.o build-Debug/src_shader.cpp.o build-Debug/src_mesh.cpp.o build-Debug/src_camera.cpp.o build-Debug/src_stb_image.c.o   
